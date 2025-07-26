@@ -39,14 +39,6 @@ Install dependencies (backend)
     cd backend
     npm install
 ```
-Setup Environment Vaiables
-
-```Make .env file in "backend" folder and store environment Variables
-  JWT_SECRET=YOUR_SECRET_TEXT
-  SALT=YOUR_SALT_VALUE
-  MONGO_URL=YOUR_DATABASE_URL
-  STRIPE_SECRET_KEY=YOUR_KEY
- ```
 
 Setup the Frontend and Backend URL
    - App.jsx in Admin folder
@@ -82,4 +74,3 @@ Start the Backend server
 * [Mongodb](https://www.mongodb.com/)
 * [Stripe](https://stripe.com/)
 * [JWT-Authentication](https://jwt.io/introduction)
-* [Multer](https://www.npmjs.com/package/multer)
